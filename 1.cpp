@@ -46,12 +46,12 @@ void dhruv(divy o1, abhi o2){
 	sum_min = o1.min + o2.min;
 	sum_sec = o1.sec + o2.sec;
 	
-	if(sum_min>=60){
+	while(sum_min>=60){
 		sum_hr = sum_hr+1;
 		sum_min = sum_min - 60;
 		
 	}
-	if(sum_sec>=60){
+	while(sum_sec>=60){
 		sum_min = sum_min+1;
 		sum_sec = sum_sec - 60;
 		
